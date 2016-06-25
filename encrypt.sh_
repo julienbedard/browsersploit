@@ -1,0 +1,47 @@
+@echo off
+echo ENCRYPTING ...
+
+perl encp.pl help.pl
+perl encp.pl index.pl
+perl encp.pl login.pl
+perl encp.pl programs.pl
+perl encp.pl stats.pl
+perl encp.pl tools.pl
+perl encp.pl xplindex.pl
+perl encp.pl xplprograms.pl
+perl encp.pl xploptions.pl
+perl encp.pl xplstats.pl
+perl encp.pl xpltraffic.pl
+
+perl encp.pl xpl/ai.pl
+perl encp.pl xpl/loads.pl
+perl encp.pl xpl/check.pl
+perl encp.pl xpl/check2.pl
+perl encp.pl xpl/honeypot.pl
+perl encp.pl xpl/rand.pl
+
+perl encp.pl xpl/lib/EncBase.pm
+perl encp.pl xpl/lib/EncHex.pm
+perl encp.pl xpl/lib/JsXOR.pm
+perl encp.pl xpl/lib/Shellcode.pm
+perl encp.pl xpl/lib/EncRand.pm
+
+perl encp.pl xpl/exploits/adobelibtiff.pl
+perl encp.pl xpl/exploits/adobenewplayer.pl
+perl encp.pl xpl/exploits/aol95.pl
+perl encp.pl xpl/exploits/aol_ampx.pl
+perl encp.pl xpl/exploits/autodesk_iodrop.pl
+perl encp.pl xpl/exploits/awingsoftwinds3d.pl
+perl encp.pl xpl/exploits/directshow.pl
+perl encp.pl xpl/exploits/icq_downloadagent.pl
+perl encp.pl xpl/exploits/iepeers.pl
+perl encp.pl xpl/exploits/iepeers7.pl
+perl encp.pl xpl/exploits/javacalendar.pl
+perl encp.pl xpl/exploits/java_arginject.pl
+perl encp.pl xpl/exploits/mozilla35.pl
+perl encp.pl xpl/exploits/mozilla_compareto.pl
+perl encp.pl xpl/exploits/ms09_002.pl
+perl encp.pl xpl/exploits/ms09_043.pl
+perl encp.pl xpl/exploits/winds3d_3.5.pl
+
+echo DONE !
