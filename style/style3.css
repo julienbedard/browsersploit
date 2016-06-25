@@ -1,0 +1,566 @@
+/* Dark Company Web Template by Devilcantburn for Envato Marketplace */
+
+
+/* -------------------------------------------------------------------------------------------[ RESETS ]------ */
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+html { font-size:100.1%; }
+
+/* -------------------------------------------------------------------------------------------[ GENERALS ]---- */
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color:#2e303f;
+	font: 75%/170% Arial, Helvetica, Verdana, sans-serif;
+	font-weight:normal;
+	background:#FFF url(../images/background2.png) repeat-x left top;
+}
+
+.content{ font-size:1em; text-align:left;}
+
+input, textarea{ font-size:100%; }
+
+img{ border:0 none; }
+
+hr{ clear: both; visibility: hidden; }
+
+.inv{ display:none;}
+
+.clear{ clear:both; height:1px;}
+
+
+a{ text-decoration:none;}
+a:hover{ text-decoration:none;}
+a:active{ text-decoration:none;}
+
+
+
+/* -------------------------------------------------------------------------------------------[ HEADINGS ]---- */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	line-height:100%;
+}
+
+h1 { font-size:   4em; }
+h2 { font-size: 3.5em; text-align:center; }
+h3 { font-size: 2.5em; font-weight:normal; }
+h4 { font-size: 1.5em; margin:10px 0 0 0; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+
+
+
+/* -------------------------------------------------------------------------------------------[ FEATURED ]---- */
+#featured_bloc{}
+#featured_bloc .content{
+	width:890px; height:0;
+	margin:0 auto;
+	text-align:center;
+	}
+	#featured_bloc #featured{
+		background:url(../images/featured.png) no-repeat left top;
+		z-index:500;
+		float:left;
+		display:block;
+		position:relative;
+		left: 786px;
+		top: 207px;
+	}
+	#featured_bloc #featured p{
+		background:url(../images/featured.png) no-repeat left top;
+		width:100px;
+		height:100px;
+	}
+
+
+/* -------------------------------------------------------------------------------------------[ top_nav ]---- */
+
+#top_nav{}
+#top_nav .content{
+	width:610px;
+	height:43px;
+	margin:0 auto;
+	text-align:center;
+	}
+	
+	#top_nav ul{margin:0 auto; padding:0; line-height:43px; font-size:1.1em; width:610px;}
+	#top_nav li{display:inline; padding:0 1px 0 0; background:url(../images/top_nav_separator.png) no-repeat right 50%; float:left;}
+	#top_nav li.end{display:inline; padding:0; background:none;}
+	#top_nav li a{margin:0 1px 0 0; background:url(../images/top_nav_link.png) no-repeat 50% top; color:#CCC; height:43px; width:83px; display:block; float:left;}
+	#top_nav li a:hover{background:url(../images/top_nav_link2.png) no-repeat 50% top; color:#FFF; height:43px; width:83px; display:block; float:left;}
+	#top_nav li a.current{background:url(../images/top_nav_link1.png) no-repeat 50% top; color:#ffaf24; float:left; font-weight:bold;}
+
+
+/* -------------------------------------------------------------------------------------------[ logo ]---- */
+
+#name_part{}
+#name_part .content{
+	background:url(../images/logo.png) no-repeat left top;
+	width:890px; height:168px;
+	margin:0 auto;
+	}
+	
+	#name_part #logo a{width:475px; height:98px; background:url(../images/c.png) no-repeat left top; display:block; margin:0 auto;}
+	#name_part #logo a:hover{background:url(../images/image2.png) no-repeat left top;}
+	
+	#name_part .slogan{
+		color:#727480;
+		font-size:1.6em;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		line-height:28px;
+		text-align:center;
+		}
+
+
+
+/* -------------------------------------------------------------------------------------------[ Slider ]---- */
+
+#slider{}
+#slider .content{
+	background:url(../images/slider_bg.png) no-repeat 50% top;
+	width:890px; height:280px;
+	margin:0 auto;
+	}
+	
+
+	#slidex ul{overflow:hidden; width:840px; height:260px;}
+	#slidex li{ padding:0;}
+	
+	#slider .wslide-menu{
+		color:#FFF;
+		display:block;
+		z-index:9;
+		position:relative;
+		top:-20px;
+		left:5px;
+	}
+	#slider .wslide-menu a{
+   		color:#FFF;
+		font-size:11px;
+		background:#191d22;
+		padding:2px 5px; margin-right:2px;
+	  }
+	#slider .wslide-menu a.wactive{
+   		color:#ffaf24;
+		font-size:11px;
+		background:#191d22;
+		padding:2px 5px; margin-right:2px;
+	  }
+	  
+	  #sliding{
+		background:#1c1d21;
+		width:840px; height:260px;
+		float:left;
+		margin:10px 25px; padding:0;
+		z-index:1; overflow: hidden;
+		}
+
+/* -------------------------------------------------------------------------------------------[ Search engine ]---- */
+
+#search{}
+#search .content{
+	background:url(../images/search_bg.png) no-repeat left top;
+	width:890px; height:31px;
+	margin:0 auto;
+	}
+	
+	#search form{width:230px; padding:4px 0 0 353px;}
+	#search input{
+		color:#c4c5ca;
+		background:transparent;
+		border:none;
+		line-height:22px;
+		margin:0 0 0 5px;
+		width:185px; height:22px;
+		}
+	#search input.go{width:30px; margin:0; cursor:pointer;}
+
+
+
+/* -------------------------------------------------------------------------------------------[ Main ]---- */
+
+#main{}
+#main .content{
+	background:url(../images/main_bg2.png) no-repeat left top;
+	width:890px;
+	margin:0 auto;
+	}
+	
+	#main a{
+		color:#323337;
+		border:1px solid #323337; border-width:0 0 1px 0;
+		font-weight:bold;
+		padding:0 0 2px 0;
+		}
+	#main a:hover{color:#11acfe; border:1px solid #11acfe; border-width:0 0 1px 0;}
+	
+	#main #go_top{
+	background:url(../images/gotop.png) no-repeat left top;
+	width:890px; height:37px;
+	}
+	#main #go_top a{
+	background:url(../images/gotop_a.png) no-repeat left top;
+	border:none;
+	display:block;
+	margin:0 auto;
+	width:30px; height:37px;
+	}
+	#main #go_top a span{ display:none;}
+
+#main #pages{padding:20px 40px;}
+
+/* Mise en page */
+
+.chapo{
+	color:#666873;
+	font-size:1.6em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height:24px;
+	text-align:center;
+	margin: 0 0 10px 0; padding:10px 0 20px 0;
+	background:url(../images/blue_line_big.png) no-repeat 50% bottom;
+	}
+
+/* Separators */
+.blue_line_big{
+	background:url(../images/blue_line_big.png) no-repeat 50% 50%;
+	width:100%; height:23px;
+	margin:10px 0;
+	display:block; clear:both;
+	}
+
+.blue_line_middle{
+	background:url(../images/blue_line_middle.png) no-repeat 50% 50%;
+	width:100%; height:23px;
+	margin:10px 0;
+	display:block; clear:both;
+	}
+
+/* Blockquote */
+blockquote{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.6em;
+	line-height:30px;
+	padding:10px;
+	text-align:center;}
+	
+/* list */
+
+ul.list_square{
+	line-height:30px;
+	margin:10px 30px;
+	}
+	ul.list_square li{
+		list-style-type:square;
+		}
+
+
+/* -------------------------------------------------------------------------------------------[ Main : home ]---- */
+	
+.p_left{
+	float:left;
+	font-size:1.1em;
+	width:360px;
+	padding:0 15px 0 30px;
+	text-align:justify;
+	}
+.p_right{
+	float:left;
+	font-size:1.1em;
+	width:360px;
+	padding:0 30px 0 15px;
+	text-align:left;
+	}
+
+
+#tri_bloc{}
+#tri_bloc .tri_bloc_one{
+	width:192px;
+	float:left;
+	background:url(../images/tri_col_sep.png) no-repeat right 50%;
+	padding:0 40px 0 0;
+	}
+#tri_bloc .tri_bloc_two{
+	width:342px;
+	float:left;
+}
+#tri_bloc .tri_bloc_tri{
+	width:192px;
+	float:left;
+	background:url(../images/tri_col_sep.png) no-repeat left 50%;
+	padding:0 0 0 40px;
+}
+
+#tri_bloc h4{ text-align:center; padding:0 0 10px 0;}
+#tri_bloc img{
+	width:236px;
+	float:none;
+	padding:3px 3px 7px 3px;
+	background:url(../images/tri_col_imgbg.png) no-repeat 50% 50%;
+	clear:both;
+	}
+#tri_bloc p{
+	clear:both;
+	font-size:1em;
+	line-height:18px;
+	padding:8px 0 0 0;
+	text-align:center;
+	}
+
+/* -------------------------------------------------------------------------------------------[ Main : about ]---- */
+
+.text_part{padding:0 0 20px 0; height:100%;}
+
+.grey_block h5{color:#11acfe; font-weight:bold; padding:0 0 5px 0;}
+.grey_block{
+	background:url(../images/grey_bloc_bg.png) repeat-x left top;
+	padding:10px;
+	}
+
+/* -------------------------------------------------------------------------------------------[ Main : Services ]---- */
+#two_cols .two_cols_part_left{width:480px; float:left; padding:0 10px;}
+#two_cols .two_cols_part_left p{ text-align:justify;}
+#two_cols .two_cols_part_right{width:310px; float:left;}
+
+#cols_grey h5{color:#11acfe; font-weight:bold; padding:0 0 5px 0;}
+#cols_grey .cols_grey_1{
+	background:url(../images/grey_bloc_bg.png) repeat-x left top;
+	float:left;
+	padding:10px;
+	width:280px;
+	}
+#cols_grey .cols_grey_2{
+	background:url(../images/grey_bloc_bg.png) repeat-x left top;
+	float:left;
+	margin:0 15px;
+	width:180px;
+	}
+#cols_grey .cols_grey_3{
+	background:url(../images/grey_bloc_bg.png) repeat-x left top;
+	float:left;
+	padding:10px;
+	width:280px;
+	}
+
+/* -------------------------------------------------------------------------------------------[ Main : Gallery ]---- */
+
+#gallery .item_block{
+	border:1px solid #f6f6f6; border-width:0 0 4px 0;
+	display:block; clear:both;
+	margin:10px 0 20px 0; padding:0 0 20px 0;
+	width:100%; height:100%;
+	}
+#gallery .item_view{
+	background:url(../images/item_view_bg.png) no-repeat left top;
+	display:block; float:left;
+	margin:0 20px 0 10px;
+	width:270px; height:140px;
+	}
+#gallery .item_view img{
+	background:#fafafa;
+	border:1px solid #aaa;
+	padding:10px;
+	width:250px; height:120px;
+	}
+#gallery .item_infos{
+	display:block; float:left;
+	width:500px; height:100%;
+	}
+#gallery .item_infos .text{ height:85px; display:block; }
+
+#gallery .item_infos a{
+	background:#222;
+	clear:both;
+	color:#FFF;
+	display:block;
+	float:right;
+	line-height:30px; text-align:center;
+	width:120px; height:30px;
+	}
+#gallery .item_infos a:hover{
+	background:#222;
+	clear:both;
+	color:#09F;
+	}
+
+/* -------------------------------------------------------------------------------------------[ Main : Blog ]---- */
+
+/* Post block */
+#blog .post_part{
+	float:left;
+	width:600px;
+	}
+	
+#blog .post_part .post{
+	border:1px solid #f6f6f6; border-width:0 0 4px 0;
+	margin:10px 0 20px 0; padding:0 0 20px 0;
+	}
+	
+#blog .post_part .post .biglines{
+	font-size:1.2em; font-weight:bold;
+	margin:10px 0; padding:0 15px;
+	}
+	
+#blog .post_part .post .post_text{
+	text-align:justify;
+	padding:0 15px;
+	}
+
+/* Pagination */
+#blog #paginate{
+	height:50px;
+	color:#FFF;
+	}
+	
+#blog #paginate a{
+	border:none;
+	}
+#blog #paginate a:hover{
+	color:#11acfe;
+	}
+	
+#blog #paginate ul{
+	text-align:center;
+	width:500px;
+	margin:0 0 0 100px;
+	}
+
+#blog #paginate ul li{
+	display:inline;
+	float:left;
+	margin:0 2px;
+	width:31px; height:40px;
+	}
+#blog #paginate ul li a{
+	color:#FFF;
+	background:url(../images/paginate_a.png) no-repeat left bottom;
+	display:block; padding:15px 0 0 0;
+	width:31px; height:25px;
+	}
+#blog #paginate ul li a:hover{
+	background:url(../images/paginate_ahover.png) no-repeat left bottom;
+	}
+#blog #paginate ul li a.active{
+	background:url(../images/paginate_active.png) no-repeat left bottom;
+	display:block; padding:0;
+	width:31px; height:40px;
+	}
+
+/* Blog navigation */
+#blog .blog_nav{
+	float:left;
+	margin:0 0 0 15px;
+	width:180px;
+	}
+#blog .blog_nav h4{
+	border:1px solid #444; border-width:0 0 3px 0;
+	margin:0 0 10px 0;
+	}
+#blog .blog_nav h5{
+	border:1px solid #dadada; border-width:0 0 1px 0;
+	margin:0 0 5px 0; padding:0 0 5px 0;
+	}
+#blog .blog_nav a{
+	border:none;
+	}
+#blog .blog_nav ul{
+	margin:0 0 15px 15px;
+	}
+#blog .blog_nav li a{
+	border:1px solid #dadada; border-width:0 0 1px 0;
+	display:block;
+	width:165px; height:25px;
+	line-height:29px;
+	}
+#blog .blog_nav li a:hover{
+	background:#fafafa;
+	border:1px solid #444; border-width:0 0 1px 0;
+	}
+
+
+/* -------------------------------------------------------------------------------------------[ Main : Contact ]---- */
+#info_contact{
+	float:left;
+	width:300px;
+	}
+
+#info_contact p{
+	margin:5px 0 10px 10px;
+	}
+	
+	
+#form{
+	float:left;
+	margin:0 0 0 20px;
+	width:460px;
+	}
+.form_contact p{
+width: 300px;
+clear: left;
+margin: 0;
+padding: 5px 0 8px 0;
+padding-left: 155px; /*width of left column containing the label elements*/
+border-top: 4px solid #fafafa;
+height: 1%;
+}
+
+.form_contact label{
+font-size:1.2em;
+font-weight: bold;
+float: left;
+line-height:30px;
+margin-left: -155px; /*width of left column*/
+width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+.form_contact .field{
+border:1px solid #444;
+padding:4px;
+width: 250px; height:22px;
+}
+
+.form_contact textarea{
+border:1px solid #444;
+padding:4px;
+width: 250px;
+height: 150px;
+}
+.form_contact .radio{
+	margin:0 0 0 15px;
+	}
+.form_contact .box{
+	margin:0 15px 0 0;
+	}
+
+* html .threepxfix{ /* Hack for IE6 */
+margin-left: 3px;
+}
+
+/* -------------------------------------------------------------------------------------------[ Footer ]---- */
+
+#footer{
+	background:url(../images/footer_bg.png) repeat-x left top;
+	}
+#footer .content{
+	color:#c4c5ca;
+	width:890px; height:95px;
+	margin:0 auto; padding:21px 0 0 0;
+	}
+	
+	#footer .copyright{width:250px; float:left;}
+	#footer .copyright p{padding:10px 15px; font-size:0.9em; line-height:16px;}
+	#footer .copyright a{color:#11acfe;}
+	#footer .copyright a:hover{color:#ffaf24;}
+	
+	#footer .footer_slogan{width:640px; height:70px; float:left; text-align:right;}
+	#footer .footer_slogan p{line-height:70px; font-size:3.5em; padding:0 80px 0 0;}

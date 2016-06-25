@@ -1,0 +1,52 @@
+#navigation a
+{
+color: #000;
+background: #ffa20c url(left-tab.gif) left top no-repeat;
+text-decoration: none;
+padding-left: 10px
+}
+
+#navigation a span
+{
+background: url(right-tab.gif) right top no-repeat;
+padding-right: 10px
+}
+
+#navigation a, #navigation a span
+{
+display: block;
+float: left
+}
+
+/* Hide from IE5-Mac \*/
+#navigation a, #navigation a span
+{
+float: none
+}
+/* End hide */
+
+#navigation a:hover
+{
+color: #fff;
+background: #781351 url(left-tab-hover.gif) left top no-repeat;
+padding-left: 10px
+}
+
+#navigation a:hover span
+{
+background: url(right-tab-hover.gif) right top no-repeat;
+padding-right: 10px
+}
+
+#navigation ul
+{
+list-style: none;
+padding: 0;
+margin: 0
+}
+
+#navigation li
+{
+float: left;
+margin: 0;
+}
