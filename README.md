@@ -21,6 +21,11 @@ Next Features:
 - Windows 8/8.1/10 CFG bypass.
 - Organize sql structure.
 - Sql optimisation with memcached.
-- Code optimisation to run on heavy loads.
+- Code optimisation to run on heavy loads
+- Port perl to php for better scalability (be able to pentest large corporate network)
+- Adding recent exploits
+- Adding more evasive shellcodes
+- Adding more platforms as it's now widely used (linux, MacOS)
+- Fixing security bugs...
 
 WARNING: This tool is not for script kiddies or for non-advanced coders. It a platform to jumpstart your own code by adding more exploits, there's a lot of bugs into the platform, some have just been put there to stop non-ethical hacker running this code too easily.
